@@ -50,8 +50,8 @@ export default class Bio extends React.Component {
         <BioBody>
           <BioHeader>안녕하세요, 저는 권인화입니다. 만나서 반갑습니다.</BioHeader>
           <BioSubHeader>
-            저는 무언가 만드는 걸 좋아합니다. 영상제작, 웹 사이트 제작에 대한
-            열정에는 자신이 있습니다.
+            저는 무언가 새롭게 만드는 걸 좋아합니다. 
+            웹 사이트, 영상 제작에 대한 열정에는 자신이 있습니다.
           </BioSubHeader>
         </BioBody>
       </BioContainer>
