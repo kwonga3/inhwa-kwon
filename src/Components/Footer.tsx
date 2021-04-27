@@ -58,7 +58,7 @@ export default class Footer extends React.Component {
     return (
       <FooterContainer>
         <LogoImage src={Logo} />
-        <FooterMessage>항상 배우면서 성장해가자</FooterMessage>
+        <FooterMessage>항상 즐겁게 배우면서 성장해가자</FooterMessage>
         <SocialContainer>
           <a
             target="_blank"
@@ -70,7 +70,7 @@ export default class Footer extends React.Component {
             onClick={() => window.open("mailto:kwonga3@naver.com")}
             className="far fa-envelope"
           />
-          <a target="_blank" href="https://github.com/dl0312">
+          <a target="_blank" href="https://github.com/kwonga3">
             <SocialButton className="fab fa-github" />
           </a>
           <a
