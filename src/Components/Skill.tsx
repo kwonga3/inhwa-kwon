@@ -34,21 +34,21 @@ const SkillWrapper = styled.div`
 const skillCards = [
   {
     icon: "fas fa-video",
-    cardTitle: "프로듀서",
+    cardTitle: "Producer",
     cardDescription: "영상을 기획, 촬영, 편집할 수 있습니다.",
     cardAbility: "영상 종류",
-    cardAbilityArray: ["드라마", "단편영화", "다큐멘터리", "예능", "광고"],
+    cardAbilityArray: ["요리", "예능", "광고"],
     cardTool: "영상 도구",
-    cardToolArray: ["Photoshop", "Premiere Pro"]
+    cardToolArray: ["Premiere Pro"]
   },
   {
     icon: "fas fa-laptop",
-    cardTitle: "웹 개발자",
+    cardTitle: "Web Developer",
     cardDescription: "풀스택 개발자를 목표로 하고 있습니다.",
     cardAbility: "사용하는 언어",
-    cardAbilityArray: ["HTML", "CSS", "React", "Django"],
+    cardAbilityArray: ["JAVA", "Javascript", "HTML", "CSS", "React"],
     cardTool: "개발 도구",
-    cardToolArray: ["Visual Studio Code", "SourceTree", "Github", "CodeSandbox"]
+    cardToolArray: ["Eclipse", "Visual Studio Code", "Github"]
   }
 ];
 

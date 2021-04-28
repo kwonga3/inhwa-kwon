@@ -100,25 +100,25 @@ export default class Navigation extends React.Component {
             <NavigationEnd>
               <NavigationItem>
                 <SocialContainer>
-                  <a
+                  {/* <a
                     target="_blank"
                     href="https://www.linkedin.com/in/geon-lee-26771614b/"
                   >
                     <SocialButton className="fab fa-linkedin-in" />
-                  </a>
+                  </a> */}
                   <SocialButton
-                    onClick={() => window.open("mailto:leegun2003@gmail.com")}
+                    onClick={() => window.open("mailto:kwonga3@gmail.com")}
                     className="far fa-envelope"
                   />
-                  <a target="_blank" href="https://github.com/dl0312">
+                  <a target="_blank" href="https://github.com/kwonga3">
                     <SocialButton className="fab fa-github" />
                   </a>
-                  <a
+                  {/* <a
                     target="_blank"
                     href="https://www.youtube.com/channel/UCc0sQY-o1HupAvho3z1S86A"
                   >
                     <SocialButton className="fab fa-youtube" />
-                  </a>
+                  </a> */}
                 </SocialContainer>
               </NavigationItem>
             </NavigationEnd>

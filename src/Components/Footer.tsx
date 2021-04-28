@@ -58,27 +58,27 @@ export default class Footer extends React.Component {
     return (
       <FooterContainer>
         <LogoImage src={Logo} />
-        <FooterMessage>항상 즐겁게 배우면서 성장해가자</FooterMessage>
+        <FooterMessage>항상 즐겁게 배우면서 성장하자</FooterMessage>
         <SocialContainer>
-          <a
+          {/* <a
             target="_blank"
             href="https://www.linkedin.com/in/geon-lee-26771614b/"
           >
             <SocialButton className="fab fa-linkedin-in" />
-          </a>
+          </a> */}
           <SocialButton
-            onClick={() => window.open("mailto:kwonga3@naver.com")}
+            onClick={() => window.open("mailto:kwonga3@gmail.com")}
             className="far fa-envelope"
           />
           <a target="_blank" href="https://github.com/kwonga3">
             <SocialButton className="fab fa-github" />
           </a>
-          <a
+          {/* <a
             target="_blank"
             href="https://www.youtube.com/channel/UCc0sQY-o1HupAvho3z1S86A"
           >
             <SocialButton className="fab fa-youtube" />
-          </a>
+          </a> */}
         </SocialContainer>
       </FooterContainer>
     );
