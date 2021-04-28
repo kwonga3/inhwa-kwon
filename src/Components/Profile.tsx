@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Computer from "../Static/image/computer.png";
-import Avatar from "../Static/image/avatar.png";
+import Avatar from "../Static/image/picround.png";
 import { media } from "src/config/_mixin";
 
 const ProfileContainer = styled.section`
@@ -123,8 +123,8 @@ export default class Profile extends React.Component {
               <ProfileBodyInner>
                 <ProfileBodyHeader>Backend Developer</ProfileBodyHeader>
                 <ProfileBodySubHeader>
-                  저는 코딩과 영상 제작을 좋아합니다, 그리고 제가 하는 일에
-                  애정을 갖고 있습니다.
+                  저는 코딩과 영상 제작을 좋아합니다, 그리고 제가 하는 일에는
+                  애정과 책임감을 가지고 임하고 있습니다. 
                 </ProfileBodySubHeader>
                 <ProfileImage src={Avatar} />
               </ProfileBodyInner>
