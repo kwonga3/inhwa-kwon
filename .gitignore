@@ -9,6 +9,9 @@
 # production
 /build
 
+# image
+/src/Static/image
+
 # misc
 .DS_Store
 .env.local
