@@ -2,7 +2,7 @@
   "name": "inhwa-kwon",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.io/kwonga3",
+  "homepage": "https://kwonga3.github.io",
   "dependencies": {
     "@types/dotenv": "^6.1.0",
     "@types/hoist-non-react-statics": "^3.3.1",
